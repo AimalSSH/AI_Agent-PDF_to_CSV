@@ -1,0 +1,4 @@
+level: INFO
+log_file: "pdf_processor.log"
+max_bytes: 1000000
+backup_count: 3
