@@ -10,6 +10,6 @@ There are two configuration files here that we need to add to the graph `api_key
 
 You can choose a model ` model: "deepseek/deepseek-chat"`, The default value is `deepseek/deepseek-chat`
 
-Next, you need to run the file `main.py`. 
+To download all the libraries, use `pip install -r requirements.txt`
 
-P.S. I'll create all the installation packages later, but for now, you'll have to download them yourself.
+Next, you need to run the file `main.py`. 
