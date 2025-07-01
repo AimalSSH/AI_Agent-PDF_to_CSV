@@ -12,4 +12,6 @@ You can choose a model ` model: "deepseek/deepseek-chat"`, The default value is 
 
 To download all the libraries, use `pip install -r requirements.txt`
 
+Here, upload your PDF document with the name "example" `AI_Agent-PDF_to_CSV\data`
+
 Next, you need to run the file `main.py`. 
