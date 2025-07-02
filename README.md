@@ -15,3 +15,21 @@ To download all the libraries, use `pip install -r requirements.txt`
 Here, upload your PDF document with the name "example" `AI_Agent-PDF_to_CSV\data`
 
 Next, you need to run the file `main.py`. 
+
+# AI-агент - преобразование PDF в CSV
+AI-агент, который извлекает необходимую информацию из PDF-файла для пользователя и преобразует ее в формат CSV
+
+## Как запустить
+Перейдите к двум каталогам:
+ 1. AI_Agent-PDF_to_CSV/config/ai_config.yaml
+ 2. AI_Agent-PDF_to_CSV/core/config/ai_config.yaml
+
+Здесь есть два файла конфигурации, которые нам нужно добавить в графу `"api_key: ""` Вы можете получить свой собственный ключ на веб-сайте https://openrouter.ai/
+
+Вы можете выбрать модель `model: "deepseek/deepseek-chat"` значение по умолчанию `deepseek/deepseek-chat`
+
+Загрузить все библиотеки, использовать `pip install -r requirements.txt`
+
+Здесь загрузите свой PDF-документ с именем "example" `AI_Agent-PDF_to_CSV\data`
+
+Далее вам нужно запустить файл `main.py`.
